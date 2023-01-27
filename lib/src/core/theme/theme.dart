@@ -7,7 +7,7 @@ final appTheme = ThemeData(
   useMaterial3: true,
   primarySwatch: Colors.blue,
   primaryColor: ColorName.primary,
-  // textTheme: _textTheme,
+  textTheme: _textTheme,
 );
 
 const _textTheme = TextTheme();

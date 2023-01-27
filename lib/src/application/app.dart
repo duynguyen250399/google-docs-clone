@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_docs_clone/src/core/theme/theme.dart';
+import 'package:google_docs_clone/src/core/values/constants.dart';
 import 'package:google_docs_clone/src/router/router.dart';
 
 class GoogleDocsApp extends StatelessWidget {
@@ -13,6 +14,7 @@ class GoogleDocsApp extends StatelessWidget {
       routeInformationProvider: router.routeInformationProvider,
       routerDelegate: router.routerDelegate,
       theme: appTheme,
+      title: $constants.app.title,
     );
   }
 }
