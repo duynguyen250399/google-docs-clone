@@ -3,7 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:google_docs_clone/gen/assets.gen.dart';
 import 'package:google_docs_clone/gen/colors.gen.dart';
 import 'package:google_docs_clone/src/core/extensions/build_context.dart';
-import 'package:google_docs_clone/src/core/presentation/widgets/button.dart';
+import 'package:google_docs_clone/src/core/ui/widgets/button.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});

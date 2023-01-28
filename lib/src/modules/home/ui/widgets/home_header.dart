@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_docs_clone/src/core/values/constants.dart';
 import 'package:google_docs_clone/src/modules/home/ui/widgets/home_logo.dart';
 import 'package:google_docs_clone/src/modules/home/ui/widgets/search_bar.dart';
-import 'package:google_docs_clone/src/modules/home/ui/widgets/user_avatar.dart';
+import 'package:google_docs_clone/src/core/ui/widgets/user_avatar.dart';
 
 class HomeHeader extends StatelessWidget implements PreferredSizeWidget {
   const HomeHeader({super.key});

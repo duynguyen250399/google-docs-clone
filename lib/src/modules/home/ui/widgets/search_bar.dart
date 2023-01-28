@@ -20,7 +20,7 @@ class SearchBar extends StatelessWidget {
         ),
         focusedBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(4),
-          borderSide: const BorderSide(color: Color(0xff2196F3), width: 2),
+          borderSide: const BorderSide(color: Colors.blue, width: 2),
         ),
         prefixIcon: const Icon(Icons.search),
       ),

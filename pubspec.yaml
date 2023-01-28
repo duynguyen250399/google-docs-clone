@@ -7,6 +7,7 @@ environment:
   sdk: ">=2.18.4 <3.0.0"
 
 dependencies:
+  auto_size_text_field: ^2.1.0
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter

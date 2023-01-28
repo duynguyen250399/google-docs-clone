@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_docs_clone/src/modules/home/ui/widgets/document_creation_card.dart';
 import 'package:google_docs_clone/src/modules/home/ui/widgets/document_item.dart';
 
 class DocumentList extends StatelessWidget {
@@ -23,6 +24,10 @@ class DocumentList extends StatelessWidget {
   }
 
   Widget _itemBuilder(BuildContext context, int index) {
+    if (index == 0) {
+      return const DocumentCreationCard();
+    }
+
     return const DocumentItem();
   }
 }

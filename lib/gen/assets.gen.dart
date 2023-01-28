@@ -16,8 +16,12 @@ class $AssetsImagesGen {
   AssetGenImage get bgWelcome =>
       const AssetGenImage('assets/images/bg_welcome.jpg');
 
+  /// File path: assets/images/blank-document.png
+  AssetGenImage get blankDocument =>
+      const AssetGenImage('assets/images/blank-document.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [bgWelcome];
+  List<AssetGenImage> get values => [bgWelcome, blankDocument];
 }
 
 class Assets {
